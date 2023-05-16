@@ -14,6 +14,10 @@ public class LineComparisonProblem {
         double length2=lengthMethod(8,15,6,12);
         String str2=String.valueOf(length2);
         System.out.println(str2);
+
+        // equals method
+        System.out.print("Equals method: "+ str1.equals(str2));
+        System.out.println();
     }
     public static double lengthMethod(int x1,int x2,int y1,int y2){
         double length3=Math.sqrt(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)));
